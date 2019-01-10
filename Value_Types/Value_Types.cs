@@ -9,29 +9,49 @@ namespace Value_Types
         [TestMethod]
         public void ValueTypes()
         {
-            //Character
-            char c = 'i';
+            char c = 'i';  // a string is just a linked list of chars, note the single quotes, a.k.a. Char
 
-            //Boolean
-            bool on = false;
-            bool off = true;
+            bool on = true;
+            bool off = false;
 
-            //Numbers
-            byte by = 255;
+            //Integers
 
-            short sh = 32000;
-            long l = 98787;
+            byte by = 255;    // 2^8, or 256, or +/- 0-255, a.k.a. Byte
+            byte byteMin = 0;
+            byte byteMax = 255;
+
+            short sh = 32767; // 2^16, or 32768, or +/- 0-32767, a.k.a. Int16
+            short shortMin = -32768;
+            short shortMax = 32767;
 
 
             int intMin = -2147483648;
             int intMax = 2147483647;
 
-            float floatExample = 1.978f;
-            double doubleExample = 0.9998d;
-            decimal decimalExample = 9.8989m;
+            long youtubeMinutesWatched = 9223372036854775807; // a very long number, 64-bit, a.k.a. Int64
+            long longMin = -9223372036854775808;
+            long longMax = 9223372036854775807;
+
+            float PI = 334.5340958091415927f; // floating point integer, must put f *explicit* conversion afterwards
+                                              //if using a constant, or you could cast as (float)
+                                              // Think of the decimal point as being movable....
+            float floatExample = 1.04523f;
+
+            double d = 780d; // 64-bit decimal, a.k.a. Double
+            double doubleExample = 1.789053278907036333333333333333333d;
+
+            decimal p = 7.80m; // 128-bit precision decimal, very expensive, a.k.a. Decimal
+            decimal decimalExample = 1.2578907289045789789789789787897m;
+
+            int i = 0;        // 2,147,483,647 +/-
+            int a = -2147483648;
+            int b = 2147483647;
+            int? ni = null; // nullable variables, use .HasValue to determine if they are populated, 
+                            ////useful with web services, database results
 
             DateTime today = DateTime.Now;
             DateTime someDay = new DateTime(1978, 1, 1);
+
         }
 
         [TestMethod]
@@ -40,36 +60,27 @@ namespace Value_Types
             int number;
             string name;
             bool isValid;
-            decimal money;
-            short sh;
-            byte bit;
         }
+
         [TestMethod]
-        public void Declaration_Than_Initialiazation()
+        public void Declaration_Than_Initialization()
         {
             int number;
             string name;
             bool isValid;
-            decimal money;
-            short sh;
-            byte bit;
 
-            number = 1;
-            name = "Lawrence";
-            isValid = false;
-            money = 3.456m;
-            sh = 32000;
-            bit = 22;
+            number = 7;
+            name = "Max";
+            isValid = true;
+            Assert.AreEqual(7, number);
         }
+
         [TestMethod]
-        public void DeclarationAndInitialization()
+        public void Declaration_And_Initialization()
         {
-            int number = 1;
-            string name = "Larry";
-            bool isValid = false;
-            decimal money = 3.509m;
-            short sh = 3450;
-            byte bit = 245;
+            int year = 2019;
+            string country = "USA";
+            Assert.AreEqual(2019, year);
         }
     }
 }
