@@ -49,13 +49,22 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassExample.cs" />
+    <Compile Include="If_ElseIf_Else.cs" />
     <Compile Include="Operators_And_Methods.cs" />
     <Compile Include="Reference_Types_And_Collections.cs" />
+    <Compile Include="Switch.cs" />
     <Compile Include="Value_Types.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet_Fundamentals\DotNet_Fundamentals.csproj">
+      <Project>{90E61768-1AB9-4624-A55A-13B758258E6E}</Project>
+      <Name>DotNet_Fundamentals</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
