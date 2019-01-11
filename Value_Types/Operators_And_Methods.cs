@@ -55,7 +55,7 @@ namespace Value_Types
             Assert.AreEqual(25, f);
             Assert.AreEqual(0, g);
             Assert.AreEqual(1, three);
-            Assert.AreEqual(423.3f, newAmount);
+            Assert.AreEqual(266.43, newAmount, 0.01);
         }
 
         private int AddTwoNumbers(int one, int two)

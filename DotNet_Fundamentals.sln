@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet_Fundamentals", "DotNet_Fundamentals\DotNet_Fundamentals.csproj", "{90E61768-1AB9-4624-A55A-13B758258E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value_Types", "Value_Types\Value_Types.csproj", "{64A9FD12-7157-4EFD-A5AF-717A927F0385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet_Fundamentals_Tests", "Value_Types\DotNet_Fundamentals_Tests.csproj", "{64A9FD12-7157-4EFD-A5AF-717A927F0385}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge_One", "Challenge_One\Challenge_One.csproj", "{8E56B680-10ED-4162-9AC4-7093CB08A323}"
 EndProject

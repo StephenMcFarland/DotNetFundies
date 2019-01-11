@@ -33,7 +33,7 @@ namespace Calculator
         //Want a method that divides
         public int DivideTwoNumbers(int hello, int ball)
         {
-            int train = hello + ball;
+            int train = hello / ball;
             return train;
         }
     }
