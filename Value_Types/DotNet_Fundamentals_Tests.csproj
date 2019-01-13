@@ -57,6 +57,7 @@
     <Compile Include="StreamingContent_RepositoryPattern_Tests.cs" />
     <Compile Include="Thanksgiving_Tests.cs" />
     <Compile Include="Calculator_Tests.cs" />
+    <Compile Include="Insurance_Tests.cs" />
     <Compile Include="Value_Types.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,6 +72,10 @@
     <ProjectReference Include="..\DotNet_Fundamentals\DotNet_Fundamentals.csproj">
       <Project>{90E61768-1AB9-4624-A55A-13B758258E6E}</Project>
       <Name>DotNet_Fundamentals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Insurance\Insurance.csproj">
+      <Project>{4CADAD9F-78B3-4818-82E8-74FE94C89064}</Project>
+      <Name>Insurance</Name>
     </ProjectReference>
     <ProjectReference Include="..\RepositoryPattern\RepositoryPattern.csproj">
       <Project>{2838f86f-d3c1-4616-af8e-95217509deb7}</Project>

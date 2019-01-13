@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThanksgivingConsole", "Than
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{03E33B24-CF82-4AD9-B657-BD59CB75B48C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance", "Insurance\Insurance.csproj", "{4CADAD9F-78B3-4818-82E8-74FE94C89064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{03E33B24-CF82-4AD9-B657-BD59CB75B48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E33B24-CF82-4AD9-B657-BD59CB75B48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E33B24-CF82-4AD9-B657-BD59CB75B48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CADAD9F-78B3-4818-82E8-74FE94C89064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CADAD9F-78B3-4818-82E8-74FE94C89064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CADAD9F-78B3-4818-82E8-74FE94C89064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CADAD9F-78B3-4818-82E8-74FE94C89064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
