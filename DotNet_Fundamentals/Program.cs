@@ -10,27 +10,27 @@ namespace DotNet_Fundamentals
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World?");
-            //Console.ReadLine();
+            Console.WriteLine("Hello World?");
+            Console.ReadLine();
 
-            //string hello = "Hello";
+            string hello = "Hello";
 
-            //Console.WriteLine(hello + " World");
-            //Console.ReadLine();
+            Console.WriteLine(hello + " World");
+            Console.ReadLine();
 
-            //string firstName = "Kenn";
-            //string lastName = "Pascascio";
+            string firstName = "Kenn";
+            string lastName = "Pascascio";
 
-            //Console.WriteLine($"{hello} {firstName} {lastName}");
-            //Console.ReadLine();
+            Console.WriteLine($"{hello} {firstName} {lastName}");
+            Console.ReadLine();
 
-            //string greeting = hello + " " + firstName + " " + lastName;
+            string greeting = hello + " " + firstName + " " + lastName;
 
-            //Console.WriteLine(greeting);
+            Console.WriteLine(greeting);
 
-            //Console.WriteLine("What is your age?");
-            //string age = Console.ReadLine();
-            //Console.WriteLine($"{hello}, {firstName} {lastName}. You are {age}");
+            Console.WriteLine("What is your age?");
+            string age = Console.ReadLine();
+            Console.WriteLine($"{hello}, {firstName} {lastName}. You are {age}");
 
         }
     }

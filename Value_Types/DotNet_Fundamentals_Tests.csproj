@@ -55,7 +55,6 @@
     <Compile Include="Reference_Types_And_Collections.cs" />
     <Compile Include="Switch.cs" />
     <Compile Include="StreamingContent_RepositoryPattern_Tests.cs" />
-    <Compile Include="Thanksgiving_Tests.cs" />
     <Compile Include="Calculator_Tests.cs" />
     <Compile Include="Insurance_Tests.cs" />
     <Compile Include="Value_Types.cs" />
