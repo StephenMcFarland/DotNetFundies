@@ -21,6 +21,7 @@ namespace BakerStreetBakery
             BakeType = bakeType;
             OrderBatchSize = batchOrder;
             CustomerName = customerName;
+            OrderCost = orderCost;
         }
 
         public Product()

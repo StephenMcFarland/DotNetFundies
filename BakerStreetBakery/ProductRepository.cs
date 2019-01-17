@@ -25,6 +25,21 @@ namespace BakerStreetBakery
             _products.Remove(product);
         }
 
+        public bool RemoveProductBySpecifications(string customerName, string productName, BakeType type)
+        {
+            bool successful = false;
+            foreach(Product product in _products)
+            {
+                if(product.CustomerName == customerName && product.ProductName == productName && product.BakeType == type)
+                {
+                    RemoveOrderedProduct(product);
+                    successful = true;
+                    break;
+                }
+            }
+            return successful;
+        }
+
         public decimal CalculateCost(BakeType type)
         {
             decimal totalCost = 100m;
