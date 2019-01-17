@@ -8,7 +8,14 @@ namespace Komodo_Insurance_Challenge
 {
     public class VehicleRepository
     {
-        private List<Vehicle> _vehicleList = new List<Vehicle>();
+        private List<Vehicle> _vehicleList;
+
+        //Constructor
+        public VehicleRepository(List<Vehicle> list)
+        {
+            //This list is being passed in from outside, specifically coming from the Customer object we are working with in the UI
+            _vehicleList = list;
+        }
 
         public void AddVehicleToList(Vehicle newVehicle)
         {

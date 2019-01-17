@@ -14,7 +14,7 @@ namespace Komodo_Insurance_Challenge
         public ProgramUI()
         {
             _customer = new Customer();
-            _vehicleRepo = new VehicleRepository();
+            _vehicleRepo = new VehicleRepository(_customer.VehicleList);
         }
 
         public void Run()
