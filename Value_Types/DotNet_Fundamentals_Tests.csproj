@@ -58,6 +58,7 @@
     <Compile Include="Calculator_Tests.cs" />
     <Compile Include="Insurance_Tests.cs" />
     <Compile Include="ForLoop.cs" />
+    <Compile Include="Dictionary.cs" />
     <Compile Include="Value_Types.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +69,10 @@
     <ProjectReference Include="..\Calculator\Calculator.csproj">
       <Project>{03e33b24-cf82-4ad9-b657-bd59cb75b48c}</Project>
       <Name>Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dictionaries\Dictionaries.csproj">
+      <Project>{0879CDC6-5384-4D52-B204-6ABBAF603D18}</Project>
+      <Name>Dictionaries</Name>
     </ProjectReference>
     <ProjectReference Include="..\DotNet_Fundamentals\DotNet_Fundamentals.csproj">
       <Project>{90E61768-1AB9-4624-A55A-13B758258E6E}</Project>

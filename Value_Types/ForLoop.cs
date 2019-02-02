@@ -10,7 +10,7 @@ namespace Value_Types
         public void ForName()
         {
             string name = "Eleven Fifty Academy";
-            for(int i = 0; i <= name.Length; i++)
+            for(int i = 0; i < name.Length; i++)
             {
                 Console.WriteLine(i);
             }

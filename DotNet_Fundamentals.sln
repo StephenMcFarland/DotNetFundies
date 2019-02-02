@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakerStreetBakery_Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo_Insurance_Challenge", "Komodo_Insurance_Challenge\Komodo_Insurance_Challenge.csproj", "{58FE53A4-4415-4D85-A892-78548331AAF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{0879CDC6-5384-4D52-B204-6ABBAF603D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{58FE53A4-4415-4D85-A892-78548331AAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58FE53A4-4415-4D85-A892-78548331AAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58FE53A4-4415-4D85-A892-78548331AAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0879CDC6-5384-4D52-B204-6ABBAF603D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0879CDC6-5384-4D52-B204-6ABBAF603D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0879CDC6-5384-4D52-B204-6ABBAF603D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0879CDC6-5384-4D52-B204-6ABBAF603D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
